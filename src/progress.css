@@ -1,0 +1,39 @@
+.progress-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .progress-step {
+    display: flex;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    z-index: 1;
+  }
+  
+  .circle.active{
+    background-color: #ff0077;
+  }
+  
+  .line {
+    width: 50px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 0 10px;
+  }
+  
+  .line.active {
+    background-color: #ff0077; 
+  }
+  
